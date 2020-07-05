@@ -6,7 +6,7 @@ import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from 'react-apollo'
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: 'https://murmuring-journey-70620.herokuapp.com/graphql',
 })
 
 class App extends Component {
